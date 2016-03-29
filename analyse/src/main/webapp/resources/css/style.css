@@ -1,0 +1,46 @@
+body{
+background:url(resources/images/background.jpg) no-repeat center;
+font-family:Arial,sans-serif;
+font-size:25px;
+color:red;
+margin: 100px;
+}
+#top{
+text-align:center;
+font-size:30px;
+}
+#down{
+text-align:bottom;
+font-size:20px;
+}
+
+#conteneur{
+width:1000px;
+margin:0 auto;
+
+}
+#menu{
+background:url(C:/Users/Acer/Desktop/bg.jpg) no-repeat center;
+
+}
+#menu ul li{
+list-style:none;
+float:left;
+padding:0;
+
+}
+#menu ul li a{
+height:40px;
+width:120px;
+display:block;
+font-size:18px;
+line-height:43px;
+text-decoration:none;
+text-align:center;
+background:url(C:/Users/Acer/Desktop/btn.jpg) no-repeat top left;
+}
+#menu ul li a:hover {
+background-position:bottom left;
+line-height:35px;
+}
+  

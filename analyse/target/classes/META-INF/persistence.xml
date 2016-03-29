@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="analyse_db" transaction-type="RESOURCE_LOCAL">
+	  <provider>org.hibernate.ejb.HibernatePersistence</provider>
+ <class>com.ensi.Model.User</class>
+ <class>com.ensi.Model.Role</class>
+ <class>com.ensi.Model.ActifCourant</class>
+ <class>com.ensi.Model.PassifCourant</class>
+ <class>com.ensi.Model.ActifNonCourant</class>
+ <class>com.ensi.Model.PassifNonCourant</class>
+ <class>com.ensi.Model.AnalyseBilan</class>
+ <class>com.ensi.Model.AnalyseRatios</class>
+  <class>com.ensi.Model.AnalyseEffetDeLevier</class>
+  <class>com.ensi.Model.AnalyseDecisionIvestissement</class>
+   <class>com.ensi.Model.DonneesEffetDeLevier</class>
+    <class>com.ensi.Model.DonneesDecision</class>
+ 
+	
+	</persistence-unit>
+</persistence>
